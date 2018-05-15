@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "pf-danilosilva",
+    "baseName": "DocumentGenerator",
+    "packageName": "com.penguin.formula.dg",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-pt",
+    "languages": [
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt-pt"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.4",
+    "packageFolder": "com/penguin/formula/dg",
+    "jwtSecretKey": "5b90d84e6abe1be9ef89b4373c7dfccefed64620",
+    "jhiPrefix": "jhi"
+  }
+}
